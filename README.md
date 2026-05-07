@@ -107,4 +107,6 @@ The [NinaPro DB2](https://ninapro.hevs.ch) dataset (Atzori et al., 2014) contain
   year={2014}
 }
 ```
-# CS618-Project
+Made with ❤️ by [Mohammed Alanazi] | [GitHub](https://github.com/Mohammed-Alanazii)
+Special thanks to Prof. Yassine Bouteraa for his guidance and support throughout this project.
+Special thanks to the NinaPro team for providing the dataset and to the open-source community for their invaluable tools and resources.

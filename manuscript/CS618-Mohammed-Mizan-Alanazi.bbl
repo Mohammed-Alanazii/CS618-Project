@@ -1,0 +1,107 @@
+\begin{thebibliography}{999}
+
+\bibitem[Zou and Cheng(2021)]{zou2021transfer}
+Zou, Y.; Cheng, L.
+\newblock A transfer learning model for gesture recognition based on the deep
+  features extracted by CNN.
+\newblock {\em IEEE Transactions on Artificial Intelligence} {\bf 2021}, {\em
+  2},~447--458.
+
+\bibitem[Li et~al.(2021)Li, Shi, and Yu]{Li2021gesture}
+Li, W.; Shi, P.; Yu, H.
+\newblock Gesture recognition using surface electromyography and deep learning
+  for prostheses hand: state-of-the-art, challenges, and future.
+\newblock {\em Frontiers in neuroscience} {\bf 2021}, {\em 15},~621885.
+
+\bibitem[Eddy et~al.(2024)Eddy, Campbell, Bateman, and Scheme]{eddy2024big}
+Eddy, E.; Campbell, E.; Bateman, S.; Scheme, E.
+\newblock Big data in myoelectric control: large multi-user models enable
+  robust zero-shot EMG-based discrete gesture recognition.
+\newblock {\em Frontiers in Bioengineering and Biotechnology} {\bf 2024}, {\em
+  12},~1463377.
+
+\bibitem[Bo et~al.(2021)Bo, Banghua, Shouwei, Yan, Zhuang, and
+  Wang]{bo2021hand}
+Bo, L.; Banghua, Y.; Shouwei, G.; Yan, L.; Zhuang, H.; Wang, W.
+\newblock Hand gesture recognition using semg signals based on cnn.
+\newblock In Proceedings of the 2021 40th Chinese Control Conference (CCC).
+  IEEE,  2021, pp. 7180--7184.
+
+\bibitem[Morozumi et~al.(2021)Morozumi, Ohsugi, Morishita, and
+  Yokoi]{morozumi2021fundamental}
+Morozumi, K.; Ohsugi, H.; Morishita, K.; Yokoi, Y.
+\newblock Fundamental research on surface electromyography analysis using
+  discrete wavelet transform—an analysis of the central nervous system
+  factors affecting muscle strength.
+\newblock {\em Journal of physical therapy science} {\bf 2021}, {\em
+  33},~63--68.
+
+\bibitem[Rahimian et~al.(2021{\natexlab{a}})Rahimian, Zabihi, Asif, Farina,
+  Atashzar, and Mohammadi]{rahimian2021fs}
+Rahimian, E.; Zabihi, S.; Asif, A.; Farina, D.; Atashzar, S.F.; Mohammadi, A.
+\newblock FS-HGR: Few-shot learning for hand gesture recognition via
+  electromyography.
+\newblock {\em IEEE transactions on neural systems and rehabilitation
+  engineering} {\bf 2021}, {\em 29},~1004--1015.
+
+\bibitem[Rahimian et~al.(2021{\natexlab{b}})Rahimian, Zabihi, Asif, Atashzar,
+  and Mohammadi]{Rahimian2021trustworthy}
+Rahimian, E.; Zabihi, S.; Asif, A.; Atashzar, S.F.; Mohammadi, A.
+\newblock Trustworthy Adaptation with Few-Shot Learning for Hand Gesture
+  Recognition.
+\newblock In Proceedings of the 2021 IEEE International Conference on
+  Autonomous Systems (ICAS). IEEE,  2021.
+
+\bibitem[Tam et~al.(2022)Tam, Boukadoum, Campeau-Lecours, and
+  Gosselin]{Tam2022siamese}
+Tam, S.; Boukadoum, M.; Campeau-Lecours, A.; Gosselin, B.
+\newblock Siamese convolutional neural network and few-shot learning for
+  embedded gesture recognition.
+\newblock In Proceedings of the 2022 20th IEEE Interregional NEWCAS Conference
+  (NEWCAS). IEEE,  2022, pp. 114--118.
+
+\bibitem[Islam et~al.(2024)Islam, Massicotte, Massicotte, and
+  Zhu]{islam2024surface}
+Islam, M.R.; Massicotte, D.; Massicotte, P.; Zhu, W.P.
+\newblock Surface EMG-based intersession/intersubject gesture recognition by
+  leveraging lightweight all-ConvNet and transfer learning.
+\newblock {\em IEEE Transactions on Instrumentation and Measurement} {\bf
+  2024}, {\em 73},~1--16.
+
+\bibitem[Lee et~al.(2026)Lee, Lim, Jiang, Yang, and Zhao]{lee2026few}
+Lee, H.; Lim, B.; Jiang, M.; Yang, Z.; Zhao, Q.
+\newblock Few-shot prototype adaptation for generalizable electromyography
+  gesture recognition: H. Lee et al.
+\newblock {\em Scientific Reports} {\bf 2026}.
+
+\bibitem[Dallel et~al.(2022)Dallel, Havard, Dupuis, and
+  Baudry]{dallel2022sliding}
+Dallel, M.; Havard, V.; Dupuis, Y.; Baudry, D.
+\newblock A sliding window based approach with majority voting for online human
+  action recognition using spatial temporal graph convolutional neural
+  networks.
+\newblock In Proceedings of the Proceedings of the 2022 7th International
+  Conference on Machine Learning Technologies,  2022, pp. 155--163.
+
+\bibitem[Atzori et~al.(2014)Atzori, Gijsberts, Castellini, Caputo, Hager,
+  Elsig, Giatsidis, Bassetto, and M{\"u}ller]{Atzori2014emg}
+Atzori, M.; Gijsberts, A.; Castellini, C.; Caputo, B.; Hager, A.G.M.; Elsig,
+  S.; Giatsidis, G.; Bassetto, F.; M{\"u}ller, H.
+\newblock Electromyography data for non-invasive naturally-controlled robotic
+  hand prostheses.
+\newblock {\em Scientific Data} {\bf 2014}, {\em 1},~140053.
+
+\bibitem[Lu et~al.(2023)Lu, Liang, Rhim, Zhang, and Qin]{Lu2023effie}
+Lu, J.; Liang, P.; Rhim, J.C.; Zhang, X.; Qin, Z.
+\newblock Effie: Efficient convolutional neural network for real-time emg
+  pattern recognition system on edge devices.
+\newblock In Proceedings of the 2023 11th International IEEE/EMBS Conference on
+  Neural Engineering (NER). IEEE,  2023, pp. 1--5.
+
+\bibitem[Tina(2025)]{Tina2025real}
+Tina, T.
+\newblock Real-Time Hand Gesture Recognition from EMG Biosignals Using
+  Interpretable Deep Learning for Adaptive Prosthesis.
+\newblock {\em Journal of Electrical Engineering} {\bf 2025}, {\em 3},~88--99.
+
+\end{thebibliography}

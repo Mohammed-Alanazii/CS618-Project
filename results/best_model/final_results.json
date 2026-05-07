@@ -1,0 +1,15 @@
+{
+  "test_window_acc": 69.87,
+  "test_window_f1": 0.6805,
+  "hard_voting_acc": 89.78,
+  "hard_voting_f1": 0.8316,
+  "soft_voting_acc": 89.37,
+  "soft_voting_f1": 0.8254,
+  "best_val_acc": 75.28,
+  "best_epoch": 49,
+  "weight_norm": 4094.64,
+  "targets": {
+    "window_79pct": false,
+    "voting_90pct": false
+  }
+}

@@ -1,0 +1,105 @@
+\relax 
+\providecommand*\new@tpo@label[2]{}
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\bibstyle{Definitions/mdpi}
+\citation{zou2021transfer}
+\citation{Li2021gesture}
+\citation{eddy2024big}
+\newmarginnote{note.1.1}{{1}{10945661sp}}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\citation{bo2021hand}
+\citation{morozumi2021fundamental}
+\citation{rahimian2021fs}
+\citation{Rahimian2021trustworthy}
+\citation{Tam2022siamese}
+\citation{islam2024surface}
+\citation{lee2026few}
+\citation{dallel2022sliding}
+\citation{dallel2022sliding}
+\citation{Atzori2014emg}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{2}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}CNN-Based EMG Gesture Recognition}{2}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Few-Shot and Transfer Learning Approaches}{2}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Sequence-Level Aggregation}{2}{subsection.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Methodology}{2}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Dataset and Subject Split}{2}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Preprocessing}{3}{subsection.3.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Preprocessing pipeline stages (Subject 1, channel 0).}}{3}{figure.caption.1}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:preprocessing}{{1}{3}{Preprocessing pipeline stages (Subject 1, channel 0)}{figure.caption.1}{}}
+\newlabel{fig:preprocessing@cref}{{[figure][1][]1}{[1][3][]3}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Class distribution by data split.}}{4}{figure.caption.2}\protected@file@percent }
+\newlabel{fig:classdist}{{2}{4}{Class distribution by data split}{figure.caption.2}{}}
+\newlabel{fig:classdist@cref}{{[figure][2][]2}{[1][3][]4}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Model Architecture}{4}{subsection.3.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces 1D ResCNN architecture (646,853 parameters).}}{4}{table.caption.3}\protected@file@percent }
+\newlabel{tab:rescnn}{{1}{4}{1D ResCNN architecture (646,853 parameters)}{table.caption.3}{}}
+\newlabel{tab:rescnn@cref}{{[table][1][]1}{[1][4][]4}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Training and Augmentation}{4}{subsection.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Majority Voting}{4}{subsection.3.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}Evaluation Metrics}{5}{subsection.3.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.7}Hyperparameters}{5}{subsection.3.7}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Training hyperparameters.}}{5}{table.caption.4}\protected@file@percent }
+\newlabel{tab:hyperparams}{{2}{5}{Training hyperparameters}{table.caption.4}{}}
+\newlabel{tab:hyperparams@cref}{{[table][2][]2}{[1][5][]5}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Experimental Results}{5}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Training Dynamics}{5}{subsection.4.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Training and validation metrics over epochs.}}{5}{figure.caption.5}\protected@file@percent }
+\newlabel{fig:curves}{{3}{5}{Training and validation metrics over epochs}{figure.caption.5}{}}
+\newlabel{fig:curves@cref}{{[figure][3][]3}{[1][5][]5}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Window-Level Results}{6}{subsection.4.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Per-class window-level classification results ($n = 62,\!087$).}}{6}{table.caption.6}\protected@file@percent }
+\newlabel{tab:window_results}{{3}{6}{Per-class window-level classification results ($n = 62,\!087$)}{table.caption.6}{}}
+\newlabel{tab:window_results@cref}{{[table][3][]3}{[1][6][]6}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Window-level confusion matrix on the test set.}}{6}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:confusion}{{4}{6}{Window-level confusion matrix on the test set}{figure.caption.7}{}}
+\newlabel{fig:confusion@cref}{{[figure][4][]4}{[1][6][]6}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Segment-Level Results}{6}{subsection.4.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Window vs.\ segment-level performance.}}{6}{table.caption.8}\protected@file@percent }
+\newlabel{tab:voting}{{4}{6}{Window vs.\ segment-level performance}{table.caption.8}{}}
+\newlabel{tab:voting@cref}{{[table][4][]4}{[1][6][]6}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Hard voting confusion matrix.}}{7}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:hardvote_cm}{{5}{7}{Hard voting confusion matrix}{figure.caption.9}{}}
+\newlabel{fig:hardvote_cm@cref}{{[figure][5][]5}{[1][6][]7}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Per-Subject and Feature Analysis}{7}{subsection.4.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Per-subject per-class accuracy heatmap.}}{7}{figure.caption.10}\protected@file@percent }
+\newlabel{fig:persubject}{{6}{7}{Per-subject per-class accuracy heatmap}{figure.caption.10}{}}
+\newlabel{fig:persubject@cref}{{[figure][6][]6}{[1][7][]7}{}{}{}}
+\citation{Lu2023effie}
+\citation{Tina2025real}
+\citation{Lu2023effie}
+\citation{Tina2025real}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces t-SNE of penultimate layer features (3,000 test windows).}}{8}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:tsne}{{7}{8}{t-SNE of penultimate layer features (3,000 test windows)}{figure.caption.11}{}}
+\newlabel{fig:tsne@cref}{{[figure][7][]7}{[1][7][]8}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Majority Voting}{8}{subsection.4.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Majority voting illustration for Subject 2.}}{8}{figure.caption.12}\protected@file@percent }
+\newlabel{fig:voting}{{8}{8}{Majority voting illustration for Subject 2}{figure.caption.12}{}}
+\newlabel{fig:voting@cref}{{[figure][8][]8}{[1][8][]8}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6}Comparison}{8}{subsection.4.6}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Comparison with reference works.}}{8}{table.caption.13}\protected@file@percent }
+\newlabel{tab:comparison}{{5}{8}{Comparison with reference works}{table.caption.13}{}}
+\newlabel{tab:comparison@cref}{{[table][5][]5}{[1][8][]8}{}{}{}}
+\bibdata{references}
+\bibcite{zou2021transfer}{{1}{2021}{{Zou and Cheng}}{{}}}
+\bibcite{Li2021gesture}{{2}{2021}{{Li et~al.}}{{Li, Shi, and Yu}}}
+\bibcite{eddy2024big}{{3}{2024}{{Eddy et~al.}}{{Eddy, Campbell, Bateman, and Scheme}}}
+\bibcite{bo2021hand}{{4}{2021}{{Bo et~al.}}{{Bo, Banghua, Shouwei, Yan, Zhuang, and Wang}}}
+\bibcite{morozumi2021fundamental}{{5}{2021}{{Morozumi et~al.}}{{Morozumi, Ohsugi, Morishita, and Yokoi}}}
+\bibcite{rahimian2021fs}{{6}{2021{}}{{Rahimian et~al.}}{{Rahimian, Zabihi, Asif, Farina, Atashzar, and Mohammadi}}}
+\bibcite{Rahimian2021trustworthy}{{7}{2021{}}{{Rahimian et~al.}}{{Rahimian, Zabihi, Asif, Atashzar, and Mohammadi}}}
+\bibcite{Tam2022siamese}{{8}{2022}{{Tam et~al.}}{{Tam, Boukadoum, Campeau-Lecours, and Gosselin}}}
+\bibcite{islam2024surface}{{9}{2024}{{Islam et~al.}}{{Islam, Massicotte, Massicotte, and Zhu}}}
+\bibcite{lee2026few}{{10}{2026}{{Lee et~al.}}{{Lee, Lim, Jiang, Yang, and Zhao}}}
+\bibcite{dallel2022sliding}{{11}{2022}{{Dallel et~al.}}{{Dallel, Havard, Dupuis, and Baudry}}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusions}{9}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}References}{9}{section.6}\protected@file@percent }
+\bibcite{Atzori2014emg}{{12}{2014}{{Atzori et~al.}}{{Atzori, Gijsberts, Castellini, Caputo, Hager, Elsig, Giatsidis, Bassetto, and M{\"u}ller}}}
+\bibcite{Lu2023effie}{{13}{2023}{{Lu et~al.}}{{Lu, Liang, Rhim, Zhang, and Qin}}}
+\bibcite{Tina2025real}{{14}{2025}{{Tina}}{{}}}
+\newlabel{LastPage}{{5}{10}{Conclusions}{page.10}{}}
+\gdef\lastpage@lastpage{10}
+\gdef\lastpage@lastpageHy{10}
+\gdef \@abspage@last{10}

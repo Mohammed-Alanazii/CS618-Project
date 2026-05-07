@@ -1,0 +1,56 @@
+# EMG Gesture Recognition Configuration
+
+# Data parameters
+window_size: 200
+window_step: 50
+n_channels: 12
+n_classes: 5
+fs: 2000
+gesture_names:
+  - Rest
+  - Fist
+  - LargeGrasp
+  - WristPron
+  - Tripod
+gesture_map:
+  0: 0
+  6: 1
+  17: 2
+  25: 3
+  38: 4
+
+# Paths
+data_dir: "data/subset"
+output_dir: "results/best_model"
+
+# Model architecture
+channels:
+  - 64
+  - 128
+  - 256
+kernel_sizes:
+  - 15
+  - 7
+  - 3
+dropout: 0.5
+
+# Training hyperparameters
+seed: 123
+batch_size: 256
+num_workers: 4
+lr: 0.002
+weight_decay: 0.003
+label_smoothing: 0.1
+max_epochs: 100
+patience: 30
+grad_clip: 1.0
+gaussian_noise_std: 0.03
+
+# Adaptive mixup
+mixup_alpha_early: 0.25
+mixup_alpha_mid: 0.05
+mixup_off_epoch: 50
+
+# Learning rate scheduler
+lr_factor: 0.5
+lr_patience: 10
